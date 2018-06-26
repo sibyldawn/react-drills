@@ -31,7 +31,7 @@ class Login extends Component {
     return (
       <div>
       <input onChange ={e => this.handleUserNameChange(e.target.value)} type="text"/>
-      <input onChange ={e => this.handleUserPasswordChange(e.target.value)} type="text"/> 
+      <input onChange ={e => this.handleUserPasswordChange(e.target.value)} type="password"/> 
       <button onClick ={this.handleLogIn}>Login</button>
       </div>
     );
